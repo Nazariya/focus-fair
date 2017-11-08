@@ -192,7 +192,7 @@ a {
     figure {
         width: 300px;
         position: absolute;
-        top: 25px;
+        top: 45px;
         left: 50px;
 
         @media (max-width: $medium-breakpoint) {
@@ -201,7 +201,7 @@ a {
         }
 
         @media (max-width: $small-breakpoint) {
-            top: 35px;
+            top: 25px;
             left: 50%;
             transform: translateX(-50%);
         }
@@ -245,12 +245,12 @@ a {
         font-size: 30px;
 
         @media (max-width: $medium-breakpoint) {
-            top: 292px;
+            top: 152px;
             right: 50px;
         }
 
         @media (max-width: $small-breakpoint) {
-            top: 292px;
+            top: 152px;
             right: 50px;
         }
     }
