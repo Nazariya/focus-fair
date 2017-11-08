@@ -47,7 +47,7 @@ border-spacing: 0; }
 // Colors
 $dark: #222725;
 $light: #eee;
-$highlight: #ec1c24;
+$highlight: #ffffff;
 $blanket: #fff100;
 
 // Breakpoints
@@ -192,16 +192,16 @@ a {
     figure {
         width: 300px;
         position: absolute;
-        top: 0px;
-        left: 0px;
+        top: 25px;
+        left: 50px;
 
         @media (max-width: $medium-breakpoint) {
-            top: -25px;
-            left: -50px;
+            top: 25px;
+            left: 50px;
         }
 
         @media (max-width: $small-breakpoint) {
-            top: -35px;
+            top: 35px;
             left: 50%;
             transform: translateX(-50%);
         }
@@ -245,12 +245,13 @@ a {
         font-size: 30px;
 
         @media (max-width: $medium-breakpoint) {
-            top: 52px;
+            top: 292px;
             right: 50px;
         }
 
         @media (max-width: $small-breakpoint) {
-            display: none;
+            top: 292px;
+            right: 50px;
         }
     }
 }
@@ -431,7 +432,7 @@ footer {
                 }
 
                 figure {
-                    max-width: 50px;
+                    max-width: 90px;
                     margin: auto;
                     display: inline-block;
 
